@@ -1,0 +1,18 @@
+# Ambientes virtuais e arquivos locais
+.venv/
+venv/
+.venv~cd/
+bin/
+lib/
+lib64
+include/
+pyvenv.cfg
+
+# Pesos de modelos grandes (> 100MB não permitidos no GitHub)
+*.pth
+*.pt
+
+# Python e Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/

@@ -1,0 +1,31 @@
+==========================================
+ Treinamento AlexNetBinary (Adam lr=0.0001, BCEWithLogitsLoss)
+ Dataset: Kaggle Dog and Cat (19998 treino, 2500 val, 2500 teste)
+ Batch size: 50 | Lotes de treino: 400 | Lotes de val: 50
+ Parâmetros: Epocas=40, Early Stopping (patience=5, metric=val_loss)
+==========================================
+
+Época 01/40 | Treino - Loss: 0.5542, Acc: 71.16% | Val - Loss: 0.4342, Acc: 80.88%
+   [CHECKPOINT] Novo melhor modelo salvo! (Val Loss: 0.4342)
+Época 02/40 | Treino - Loss: 0.3763, Acc: 83.38% | Val - Loss: 0.3368, Acc: 84.84%
+   [CHECKPOINT] Novo melhor modelo salvo! (Val Loss: 0.3368)
+Época 03/40 | Treino - Loss: 0.2781, Acc: 88.03% | Val - Loss: 0.2776, Acc: 88.16%
+   [CHECKPOINT] Novo melhor modelo salvo! (Val Loss: 0.2776)
+Época 04/40 | Treino - Loss: 0.2277, Acc: 90.60% | Val - Loss: 0.2830, Acc: 87.68%
+   -> Val Loss não melhorou (1/5)
+Época 05/40 | Treino - Loss: 0.1878, Acc: 92.07% | Val - Loss: 0.2237, Acc: 90.16%
+   [CHECKPOINT] Novo melhor modelo salvo! (Val Loss: 0.2237)
+Época 06/40 | Treino - Loss: 0.1589, Acc: 93.65% | Val - Loss: 0.3236, Acc: 88.36%
+   -> Val Loss não melhorou (1/5)
+Época 07/40 | Treino - Loss: 0.1299, Acc: 94.66% | Val - Loss: 0.3141, Acc: 88.92%
+   -> Val Loss não melhorou (2/5)
+Época 08/40 | Treino - Loss: 0.1127, Acc: 95.67% | Val - Loss: 0.2246, Acc: 91.08%
+   -> Val Loss não melhorou (3/5)
+Época 09/40 | Treino - Loss: 0.0963, Acc: 96.13% | Val - Loss: 0.5137, Acc: 84.24%
+   -> Val Loss não melhorou (4/5)
+Época 10/40 | Treino - Loss: 0.0793, Acc: 96.83% | Val - Loss: 0.3161, Acc: 90.32%
+   -> Val Loss não melhorou (5/5)
+
+Early Stopping ativado na época 10!
+Melhor Val Loss registrado: 0.2237 (obtido na época 5)
+Pesos do melhor modelo restaurados com sucesso.
