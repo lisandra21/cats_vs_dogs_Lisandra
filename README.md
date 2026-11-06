@@ -1,0 +1,1 @@
+Este repositório contém a implementação e avaliação de uma Rede Neural Convolucional (CNN) inspirada na arquitetura AlexNet (Krizhevsky et al., 2012), adaptada para a tarefa de classificação binária de imagens (Gatos vs. Cachorros) utilizando PyTorch.
